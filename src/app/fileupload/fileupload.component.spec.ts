@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TodosComponent } from './todos.component';
+import { FileuploadComponent } from './fileupload.component';
 
-describe('TodosComponent', () => {
-  let component: TodosComponent;
-  let fixture: ComponentFixture<TodosComponent>;
+describe('FileuploadComponent', () => {
+  let component: FileuploadComponent;
+  let fixture: ComponentFixture<FileuploadComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TodosComponent]
+      imports: [FileuploadComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(TodosComponent);
+    fixture = TestBed.createComponent(FileuploadComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
